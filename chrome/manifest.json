@@ -1,0 +1,25 @@
+{
+	"name": "Habracleaner",
+	"description": "Скрывает топики на Хабре по заданным правилам",
+	"version": "0.1",
+	"content_scripts":
+	[
+		{
+			"all_frames": true,
+			"css": [ "css/hide.css" ],
+			"js": [ "js/hide.js" ],
+			"matches": [ "http://habrahabr.ru/", "http://habrahabr.ru/page*", "http://habrahabr.ru/new/*", "https://habrahabr.ru/", "https://habrahabr.ru/page*", "https://habrahabr.ru/new/*" ],
+			"run_at": "document_end"
+		}
+	],
+	"icons":
+	{
+		"128": "icons/icon-128.png",
+		"48": "icons/icon-48.png",
+		"16": "icons/icon-16.png"
+	},
+	"background_page": "background.html",
+	"options_page": "options.html",
+	"permissions": [ "http://habrahabr.ru/*", "http://*.habrahabr.ru/*", "https://habrahabr.ru/*", "https://*.habrahabr.ru/*", "tabs" ],
+	"update_url": "http://clients2.google.com/service/update2/crx"
+}
