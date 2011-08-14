@@ -1,0 +1,3 @@
+content habracleaner content/
+
+overlay chrome://browser/content/browser.xul chrome://habracleaner/content/habracleaner.xul

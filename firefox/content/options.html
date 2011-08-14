@@ -1,0 +1,27 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Habracleaner &mdash; Настройки</title>
+	<link href="css/options.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/options.js"></script>
+</head>
+
+<body onload="restore_options()">
+	<div id="options">
+		<label for="rules-authors">Скрывать посты этих авторов</label>
+		<input id="rules-authors" type="text" value="" />
+		<div class="separator"></div>
+		<label for="rules-tags">Скрывать посты с этими тегами</label>
+		<input id="rules-tags" type="text" value="" />
+		<div class="separator"></div>
+		<label for="rules-blogs">Скрывать посты из этих блогов</label>
+		<input id="rules-blogs" type="text" value="" />
+		<div class="separator"></div>
+		<input id="hide-type-blind" type="radio" name="hide-type" value="blind" checked="checked" />
+		<label for="hide-type-blind">Затемнять пост</label>
+		<br />
+		<input id="hide-type-full" type="radio" name="hide-type" value="full" />
+		<label for="hide-type-full">Полностью скрывать пост</label>
+	</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE overlay>
+<overlay id="habracleaner-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/javascript" src="chrome://habracleaner/content/js/hide.js" />
+	<script type="application/javascript" src="chrome://habracleaner/content/js/habracleaner.js" />
+</overlay>
